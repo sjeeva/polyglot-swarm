@@ -1,3 +1,6 @@
 [submodule "railsapp"]
 	path = railsapp
 	url = https://github.com/sjeeva/railsapp.git
+[submodule "flaskapp"]
+	path = flaskapp
+	url = https://github.com/sjeeva/flaskapp.git
