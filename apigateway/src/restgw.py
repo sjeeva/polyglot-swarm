@@ -12,8 +12,8 @@ app = Flask(__name__)
 def get_tasks():
     return requests.get(os.environ['APP_URL'])
 
-@app.route("/HIDE")
-def HIDE_get_tasks():
+@app.route("/json")
+def get_tasks_json():
     response = requests.get(os.environ['APP_URL'] + '/json')
     if response.status_code == 200 :
         return jsonify(response.json())
