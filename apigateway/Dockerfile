@@ -1,4 +1,4 @@
-FROM python:3
+FROM python:alpine
 
 MAINTAINER Jeeva S. Chelladhurai
 
